@@ -82,6 +82,12 @@ public final class Gawain implements ServantRole {
 	}
 	
 	@Override
+	public boolean applyable(final Award award) {
+		// TODO
+		return true;
+	}
+	
+	@Override
 	public void crusade() {
 		// TODO
 	}

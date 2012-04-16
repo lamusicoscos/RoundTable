@@ -93,6 +93,12 @@ public class Perceval implements ServantRole {
 		checkNotNull(award);
 	}
 	
+	@Override
+	public boolean applyable(final Award award) {
+		// TODO
+		return true;
+	}
+	
 	/**
 	 * 添加一个信息职能系统 Perceval 系统的信息来源通道。
 	 * @param pike 信息来源通道

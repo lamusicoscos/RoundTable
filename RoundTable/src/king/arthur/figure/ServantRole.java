@@ -22,4 +22,11 @@ public interface ServantRole extends Role {
 	 */
 	public void blandish(final Award award);
 	
+	/**
+	 * 检测给定的业务逻辑 <code>award</code> 是否与该职能系统相匹配。
+	 * @param award 需要执行的业务逻辑
+	 * @return 匹配返回 true， 不匹配返回 false
+	 */
+	public boolean applyable(final Award award);
+	
 }
